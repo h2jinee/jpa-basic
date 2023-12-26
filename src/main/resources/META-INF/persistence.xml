@@ -21,7 +21,7 @@
 			<property name="hibernate.show_sql" value="true" /> <!-- SQL 쿼리 날린 거 확인 -->
 			<property name="hibernate.format_sql" value="true" /> <!-- SQL 쿼리문 정리해서 출력 -->
 			<property name="hibernate.use_sql_comments" value="true" /> <!-- 왜 실행했는지 자동 코멘트 -->
-			<!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+			<property name="hibernate.hbm2ddl.auto" value="create" />
 		</properties>
 	</persistence-unit>
 </persistence>
